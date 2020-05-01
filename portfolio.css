@@ -1,0 +1,35 @@
+nav {
+  background-color: #ccffff;
+}
+
+header {
+  height: 600px;
+}
+
+h1 {
+  color: #fdfefe;
+}
+
+.container {
+  height: 400px;
+}
+
+h2 {
+  color: #fbfcfc;
+}
+
+.row {
+  height: 300px;
+}
+
+.col-8 {
+  background-color: #f9e79f;
+}
+
+.col-5 {
+  background-color: #d7bde2;
+}
+
+.col-3 {
+  background-color: #e6b0aa;
+}
