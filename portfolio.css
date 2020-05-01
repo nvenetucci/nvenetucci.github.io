@@ -3,7 +3,7 @@ nav {
 }
 
 header {
-  height: 600px;
+  height: 700px;
 }
 
 h1 {
@@ -11,7 +11,7 @@ h1 {
 }
 
 .container {
-  height: 400px;
+  height: 600px;
 }
 
 h2 {
@@ -57,4 +57,8 @@ p {
   .col-sm-3 {
     margin-left: 0;
   }
+}
+
+.card {
+  margin-top: 8px;
 }
