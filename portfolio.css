@@ -22,14 +22,39 @@ h2 {
   height: 300px;
 }
 
-.col-8 {
+.col-sm-8 {
   background-color: #f9e79f;
+  margin: 8px 0;
 }
 
-.col-5 {
+.col-sm-5 {
   background-color: #d7bde2;
+  margin-right: 4px;
 }
 
-.col-3 {
+.col-sm-3 {
   background-color: #e6b0aa;
+  margin-left: 4px;
+}
+
+div[class^="col-"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+}
+
+p {
+  font-size: 1.05em;
+}
+
+@media (max-width: 575px) {
+  .col-sm-5 {
+    margin-right: 0;
+    margin-bottom: 8px;
+  }
+  .col-sm-3 {
+    margin-left: 0;
+  }
 }
