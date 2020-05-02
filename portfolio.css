@@ -3,7 +3,7 @@ nav {
 }
 
 header {
-  height: 700px;
+  height: 550px;
 }
 
 h1 {
@@ -16,6 +16,7 @@ h1 {
 
 h2 {
   color: #fbfcfc;
+  padding-top: 120px;
 }
 
 .row {
@@ -74,4 +75,16 @@ form {
 
 #formGroupName {
   margin-top: 16px;
+}
+
+#formGroupName > label {
+  margin-top: 12px;
+}
+
+.button-group {
+  margin-left: 20px;
+}
+
+.button-group > button {
+  margin-bottom: 16px;
 }
