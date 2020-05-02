@@ -11,7 +11,7 @@ h1 {
 }
 
 .container {
-  height: 600px;
+  margin-bottom: 100px;
 }
 
 h2 {
@@ -61,4 +61,17 @@ p {
 
 .card {
   margin-top: 8px;
+}
+
+form {
+  background-color: #a9cce3;
+  border-radius: 5px;
+}
+
+.form-group {
+  margin: 0 20px 16px 20px;
+}
+
+#formGroupName {
+  margin-top: 16px;
 }
