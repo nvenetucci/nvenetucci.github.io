@@ -3,7 +3,7 @@ nav {
 }
 
 header {
-  height: 550px;
+  height: 500px;
 }
 
 h1 {
@@ -46,6 +46,10 @@ div[class^="col-"] {
   border-radius: 10px;
 }
 
+#about p {
+  padding-top: 15px;
+}
+
 p {
   font-size: 1.05em;
 }
@@ -57,6 +61,15 @@ p {
   }
   .col-sm-3 {
     margin-left: 0;
+  }
+  h2 {
+    padding-top: 230px;
+  }
+  header {
+    height: 320px;
+  }
+  h1 {
+    margin-top: 230px;
   }
 }
 
@@ -77,7 +90,7 @@ form {
   margin-top: 16px;
 }
 
-#formGroupName > label {
+#formGroupName label {
   margin-top: 12px;
 }
 
@@ -85,6 +98,6 @@ form {
   margin-left: 20px;
 }
 
-.button-group > button {
+.button-group button {
   margin-bottom: 16px;
 }
